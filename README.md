@@ -28,7 +28,7 @@ Train an MLP to classify grayscale images of handwritten digits from the MNIST d
 
 ## 📁 Files
 
-- `mnist_mlp.py` - Main code file to run the model.
+- `main.py` - Main code file to run the model.
 - `report.md` - Technical report of the experiment.
 - `README.md` - This file.
 
@@ -61,6 +61,6 @@ pip install tensorflow matplotlib seaborn scikit-learn
 bash
 Copy
 Edit
-python mnist_mlp.py
+python main.py
 📌 Dataset
 Available via Keras: from tensorflow.keras.datasets import mnist
